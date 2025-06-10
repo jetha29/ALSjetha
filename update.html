@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://forms.gle/a34U2ZmkQ1en63kt5" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			ALS News and Updates
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>ALS Updates</h1>
+
+
+			<p>A&E Test Review</p>
+				<div class="expert-box">
+			<div class="profile">
+				<img src="img/UPDATE 1.jpg">
+				</div>
+
+			</div>
+            <p>A&E Examination Day</p>
+			<div class="profile">
+				<img src="img/update 3.jpg">
+				</div>
+
+			</div>
+            <p>Mapping for Interested Learners</p>
+			<div class="profile">
+				<img src="img/update 4.jpg">
+				</div>
+
+				</div>
+            <p>Brigada Eskwela 2025</p>
+			<div class="profile">
+				<img src="img/update 5.jpg">
+				</div>
+
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@Manolo Fortich IV ALS Updates</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>jethadumayao@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Phone #0975-842-8995</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li> <a href="https://www.google.com/maps/place/Dalirig+Elementary+School/@8.3773672,124.9027883,17z/data=!4m14!1m7!3m6!1s0x32ffbe7daf7e6c69:0xd5e86a88f3904d5a!2sDalirig+Elementary+School!8m2!3d8.3773619!4d124.9053632!16s%2Fg%2F11b6__1k8g!3m5!1s0x32ffbe7daf7e6c69:0xd5e86a88f3904d5a!8m2!3d8.3773619!4d124.9053632!16s%2Fg%2F11b6__1k8g?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D"> ALS MF IV (DALIRIG) </a> </li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2025 All rights reserved | This template is made by jethadumayao</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
